@@ -9,7 +9,7 @@ export default function Footer() {
         <p className="text-sm">&copy; {new Date().getFullYear()} Collins. All rights reserved.</p>
         <div className="flex gap-6">
           <a
-            href="https://twitter.com/yourusername"
+            href="https://x.com/CollinsDeprof"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors duration-300"
@@ -18,7 +18,7 @@ export default function Footer() {
             <Twitter size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/collins-okoro"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white transition-colors duration-300"

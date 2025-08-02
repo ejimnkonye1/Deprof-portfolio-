@@ -37,7 +37,7 @@ export default function Header() {
             isLoaded ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
           }`}
         >
-        <span className="font-playwrite-qld md:text-3xl">Deprof</span>   <span className="text-gray-400 md:text-3xl pl-2 font-playwrite-pl">Portfolio</span>
+        <span className="font-playwrite-qld  md:text-3xl">Deprof</span>   <span className="text-gray-400 md:text-3xl pl-2 font-playwrite-pl">Portfolio</span>
         </div>
 
         {/* Navigation can go here if needed */}
