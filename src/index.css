@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  @font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('/fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; /* Recommended for performance */
+  }
+
+   @font-face {
+    font-family: 'Playwrite HU';
+    src: url('/fonts/sPlaywriteHU-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+}
+
+.font-playwrite {
+  font-family: 'Playwrite HU',  
+}
+
+
+  .font-grotesk {
+ font-family:  "SpaceGrotesk";
+  }
+  .font-playwrite-qld {
+  font-family: 'Playwrite AU QLD', cursive;
+}
+
+.font-playwrite-pl {
+  font-family: 'Playwrite PL', cursive;
+}
+
+body{
+ font-family:  "SpaceGrotesk";
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
