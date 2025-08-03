@@ -1,6 +1,6 @@
 "use client"
 
-import { Twitter, Linkedin } from "lucide-react"
+import { Twitter, Linkedin, Instagram } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -25,6 +25,15 @@ export default function Footer() {
             aria-label="LinkedIn"
           >
             <Linkedin size={24} />
+          </a>
+              <a
+            href="https://www.instagram.com/collins_deprof"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-white transition-colors duration-300"
+            aria-label="Instagram"
+          >
+            <Instagram size={24} />
           </a>
         </div>
       </div>
